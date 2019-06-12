@@ -7,11 +7,20 @@
     tools:context=".calculo">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/TextCalculo"
         android:textSize="36sp"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="95dp" />
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="234dp"
+        android:layout_height="46dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

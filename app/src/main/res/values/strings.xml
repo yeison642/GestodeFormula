@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Gesto de Formulas</string>
     <string name="TextView">Selecciona una Categoria</string>
-    <string name="TextCalculo">Calculo</string>
+    <string name="TextCalculo">subcategoria1</string>
 
 </resources>
