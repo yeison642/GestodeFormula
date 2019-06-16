@@ -13,7 +13,7 @@ public class fisica extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fisica);
 
-        txFisica = (TextView) findViewById(R.id.txAlgebra);
+        txFisica = (TextView) findViewById(R.id.txFisica);
         Bundle parametros = getIntent().getExtras();
         if(parametros != null){
             txFisica.setText(parametros.getString("PsFisica"));
