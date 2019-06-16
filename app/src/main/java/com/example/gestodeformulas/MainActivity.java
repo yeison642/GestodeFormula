@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements ListView.OnItemClickListener {
 
     ListView listView;
-    String []valores = new String[] {"ALGEBRA","CALCULO","FISICA","QUIMICA","TRIGONOMETRIA","ESTADISTICA"};
+    String []valores = new String[] {"ALGEBRA","CALCULO","ESTADISTICA","FISICA","QUIMICA","TRIGONOMETRIA"};
 
 
     @Override
@@ -33,10 +33,31 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        String algebraV ="ALGEBRA";
+        String calculoV ="CALCULO";
+        String estadisticaV ="ESTADISTICA";
+        String fisicaV = "FISICA";
+        String quimicaV = "QUIMICA";
+        String trigonometria = "TRIGONOMETRIA";
+
+        String Este ="ALg";
+
         String valor = (String) adapterView.getItemAtPosition(i);
-        Intent nuevoForm = new Intent(MainActivity.this,calculo.class);
-        nuevoForm.putExtra("Categorias",valor);
-        startActivity(nuevoForm);
+
+        if(valor ==  calculoV){
+            Intent nuevoForm = new Intent(MainActivity.this,calculo.class);
+
+            nuevoForm.putExtra("PsCalculo",valor);
+            startActivity(nuevoForm);
+        }
+        if(valor ==  algebraV){
+            Intent nuevoForm = new Intent(MainActivity.this,algebra.class);
+            nuevoForm.putExtra("PsAlgebra",valor);
+            startActivity(nuevoForm);
+        }
+
+
+
 
     }
 }

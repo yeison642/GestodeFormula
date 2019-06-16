@@ -4,19 +4,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class calculo extends AppCompatActivity {
+public class estadistica extends AppCompatActivity {
 
-    private TextView txCalculo;
+    private TextView txEstadistica;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculo);
+        setContentView(R.layout.activity_estadistica);
 
-        txCalculo = (TextView) findViewById(R.id.txCalculo);
+        txEstadistica = (TextView) findViewById(R.id.txEstadistica);
         Bundle parametros = getIntent().getExtras();
         if(parametros != null){
-            txCalculo.setText(parametros.getString("PsCalculo"));
+            txEstadistica.setText(parametros.getString("PsEstadistica"));
         }
     }
 }
+

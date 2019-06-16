@@ -9,8 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".algebra"></activity>
         <activity android:name=".calculo"></activity>
+        <activity android:name=".fisica"></activity>
+        <activity android:name=".quimica"></activity>
+        <activity android:name=".trigonometria"></activity>
+        <activity android:name=".estadistica"></activity>
         <activity android:name=".MainActivity">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

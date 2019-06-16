@@ -4,19 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class calculo extends AppCompatActivity {
+public class quimica extends AppCompatActivity {
 
-    private TextView txCalculo;
+    private TextView txQuimica;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculo);
+        setContentView(R.layout.activity_quimica);
 
-        txCalculo = (TextView) findViewById(R.id.txCalculo);
+        txQuimica = (TextView) findViewById(R.id.txQuimica);
         Bundle parametros = getIntent().getExtras();
         if(parametros != null){
-            txCalculo.setText(parametros.getString("PsCalculo"));
+            txQuimica.setText(parametros.getString("PsQuimica"));
         }
     }
 }

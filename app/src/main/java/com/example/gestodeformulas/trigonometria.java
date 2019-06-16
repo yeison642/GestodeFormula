@@ -4,19 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class calculo extends AppCompatActivity {
+public class trigonometria extends AppCompatActivity {
 
-    private TextView txCalculo;
+    private TextView txTrigonometria;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculo);
+        setContentView(R.layout.activity_trigonometria);
 
-        txCalculo = (TextView) findViewById(R.id.txCalculo);
+        txTrigonometria = (TextView) findViewById(R.id.txTrigonometria);
         Bundle parametros = getIntent().getExtras();
         if(parametros != null){
-            txCalculo.setText(parametros.getString("PsCalculo"));
+            txTrigonometria.setText(parametros.getString("PsTrigonometria"));
         }
     }
 }
+
+

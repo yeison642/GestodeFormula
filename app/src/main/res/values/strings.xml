@@ -3,4 +3,8 @@
     <string name="TextView">Selecciona una Categoria</string>
     <string name="TextCalculo">subcategoria1</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="encabezado">Seleccione Categoria</string>
+
 </resources>
