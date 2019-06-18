@@ -12,7 +12,7 @@ public class algebra extends AppCompatActivity  {
 
         private TextView txAlgebra;
     ListView listView;
-    String []temas = new String[] {"ALGEBRA","CALCULO","ESTADISTICA","FISICA","QUIMICA","TRIGONOMETRIA"};
+    String []temas = new String[] {"tema1","tema2","tema3","tema4","tema5","tema6"};
 
 
 

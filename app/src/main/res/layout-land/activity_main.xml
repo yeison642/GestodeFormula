@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CACAEE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txEncabezado"
+        android:layout_width="413dp"
+        android:layout_height="44dp"
+        android:background="#000044"
+        android:gravity="center"
+        android:text="@string/encabezado_main"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/lvLista"
+        android:layout_width="393dp"
+        android:layout_height="383dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/txEncabezado"
+        tools:layout_editor_absoluteX="9dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btFavoritos"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:drawable/btn_star"
+        android:onClick="Favorito"
+        app:layout_constraintEnd_toEndOf="@+id/txEncabezado"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
