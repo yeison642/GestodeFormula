@@ -7,14 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements ListView.OnItemClickListener {
 
+    Button favoritoB;
     ListView listView;
+
     String []valores = new String[] {"ALGEBRA","CALCULO","ESTADISTICA","FISICA","QUIMICA","TRIGONOMETRIA"};
+
+
 
 
     @Override
@@ -28,9 +33,14 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         listView.setOnItemClickListener(this);
         listView.setAdapter(adapter);
 
-
+    }
+    //Metodo el boton favorito
+    public void Favorito(View view){
+        Intent favoritod = new Intent(this, favoritos.class);
+        startActivity(favoritod);
     }
 
+    //Metodo para la navegacion del ListView
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         String algebraV ="ALGEBRA";

@@ -16,6 +16,7 @@
         <activity android:name=".quimica"></activity>
         <activity android:name=".trigonometria"></activity>
         <activity android:name=".estadistica"></activity>
+        <activity android:name=".favoritos"></activity>
         <activity android:name=".MainActivity">
 
 
