@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/txFis_Formula3"
+        android:id="@+id/txQuim_Formula4"
         android:layout_width="413dp"
         android:layout_height="44dp"
         android:background="#000044"
