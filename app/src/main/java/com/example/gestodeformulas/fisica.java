@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class fisica extends AppCompatActivity {
     private TextView txFisica;
     ListView listView;
-    String []temas = new String[] {"ALGEBRA","CALCULO","ESTADISTICA","FISICA","QUIMICA","TRIGONOMETRIA"};
+    String []temas = new String[] {"FORMULA 1","FORMULA 2","FORMULA 3","FORMULA 4","FORMULA 5","FORMULA 6"};
 
 
     @Override

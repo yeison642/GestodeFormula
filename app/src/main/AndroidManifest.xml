@@ -16,6 +16,11 @@
         <activity android:name=".trigonometria" />
         <activity android:name=".estadistica" />
         <activity android:name=".favoritos" />
+        <activity android:name=".cal_formula1"/>
+        <activity android:name=".cal_formula2"/>
+        <activity android:name=".cal_formula3"/>
+        <activity android:name=".cal_formula4"/>
+        <activity android:name=".cal_formula5"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

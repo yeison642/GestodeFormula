@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         listView.setAdapter(adapter);
 
     }
-    //Metodo el boton favorito
+    //Metodo del boton favorito
     public void Favorito(View view){
         Intent favoritod = new Intent(this, favoritos.class);
         startActivity(favoritod);

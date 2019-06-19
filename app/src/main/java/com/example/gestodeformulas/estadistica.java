@@ -10,7 +10,7 @@ public class estadistica extends AppCompatActivity {
 
     private TextView txEstadistica;
     ListView listView;
-    String []temas = new String[] {"ALGEBRA","CALCULO","ESTADISTICA","FISICA","QUIMICA","TRIGONOMETRIA"};
+    String []temas = new String[] {"FORMULA 1","FORMULA 2","FORMULA 3","FORMULA 4","FORMULA 5","FORMULA 6"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
