@@ -40,11 +40,11 @@ public class algebra extends AppCompatActivity implements ListView.OnItemClickLi
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        String form1 ="FORMULA1";
-        String form2 ="FORMULA2";
-        String form3 ="FORMULA3";
-        String form4 = "FORMULA4";
-        String form5 = "FORMULA5";
+        String form1 ="MATRICES";
+        String form2 ="VECTOR";
+        String form3 ="POLINOMIOS";
+        String form4 = "FACTORIZACION";
+        String form5 = "VALOR ABSOLUTO";
 
         String valor = (String) adapterView.getItemAtPosition(i);
 

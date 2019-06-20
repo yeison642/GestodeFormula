@@ -14,7 +14,9 @@ public class calculo extends AppCompatActivity implements ListView.OnItemClickLi
 
     private TextView txCalculo;
     ListView listView;
-    String []temas = new String[] {"DERIVADAS","INTEGRALES","LIMITES","SUMAS PROGRESIVAS"};
+
+    String []temas = new String[] {"INTEGRALES","LIMITES","RACIONALIZACION","DESIGUALDADES","DERIVADAS"};
+
 
 
 
@@ -41,11 +43,11 @@ public class calculo extends AppCompatActivity implements ListView.OnItemClickLi
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        String form1 ="FORMULA1";
-        String form2 ="FORMULA2";
-        String form3 ="FORMULA3";
-        String form4 = "FORMULA4";
-        String form5 = "FORMULA5";
+        String form1 ="INTEGRALES";
+        String form2 ="LIMITES";
+        String form3 ="RACIONALIZACION";
+        String form4 = "DESIGUALDADES";
+        String form5 = "DERIVADAS";
 
         String valor = (String) adapterView.getItemAtPosition(i);
 
