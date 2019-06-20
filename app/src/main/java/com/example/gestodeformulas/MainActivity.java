@@ -9,12 +9,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements ListView.OnItemClickListener {
 
     Button favoritoB;
+    Button botonqr;
     ListView listView;
 
     String []valores = new String[] {"ALGEBRA","CALCULO","FISICA","QUIMICA"};
@@ -35,6 +34,11 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
     public void Favorito(View view){
         Intent favoritod = new Intent(this, favoritos.class);
         startActivity(favoritod);
+    }
+
+    public void Scanqr(View view){
+        Intent scanQR =new Intent( this, qr.class);
+        startActivity(scanQR);
     }
 
     //Metodo para la navegacion del ListView
