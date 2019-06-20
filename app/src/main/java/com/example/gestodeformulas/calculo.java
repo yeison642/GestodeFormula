@@ -14,7 +14,7 @@ public class calculo extends AppCompatActivity implements ListView.OnItemClickLi
 
     private TextView txCalculo;
     ListView listView;
-    String []temas = new String[] {"FORMULA1","FORMULA2","FORMULA3","FORMULA4","FORMULA5"};
+    String []temas = new String[] {"DERIVADAS","INTEGRALES","LIMITES","SUMAS PROGRESIVAS"};
 
 
 
