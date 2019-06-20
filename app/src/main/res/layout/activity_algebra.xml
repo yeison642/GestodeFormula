@@ -11,7 +11,7 @@
         android:id="@+id/txAlgebra"
         android:layout_width="413dp"
         android:layout_height="44dp"
-        android:background="#000044"
+        android:background="@color/colorTexSeleccionCate"
         android:gravity="center"
 
         android:textColor="#FFFFFF"

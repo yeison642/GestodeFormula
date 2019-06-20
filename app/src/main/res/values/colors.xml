@@ -4,7 +4,11 @@
     <color name="colorPrimary">#37474F</color>
     <color name="colorPrimaryDark">#000022</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="texColorListView">#000000</color>
+    <color name="texColorListView">#FFFFFF</color>
+    <color name="colorTexSeleccionCate">#37474F</color>
+    <color name="colorBackPrincipal">#000022</color>
+    <color name="colorBackListView">#000022</color>
+
 
 
 </resources>

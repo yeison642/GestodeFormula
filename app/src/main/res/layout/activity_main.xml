@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/colorBackPrincipal"
     tools:context=".MainActivity">
 
     <TextView
@@ -22,7 +22,7 @@
 
     <ListView
         android:id="@+id/lvLista"
-        android:background="#FFFFFF"
+        android:background="@color/colorBackListView"
         android:layout_width="393dp"
         android:layout_height="383dp"
         android:layout_marginTop="12dp"
