@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class fisica extends AppCompatActivity  implements ListView.OnItemClickListener{
     private TextView txFisica;
     ListView listView;
-    String []temas = new String[] {"FORMULA1","FORMULA2","FORMULA3","FORMULA4","FORMULA5"};
+    String []temas = new String[] {"LEY DE OHM","MAGENTISMO","MOV PARABOLICO","FUERZA ELECTRICA","LEY DE VOLTAJES"};
 
 
     @Override
