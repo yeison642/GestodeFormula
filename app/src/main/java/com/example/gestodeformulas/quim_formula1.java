@@ -31,8 +31,6 @@ public class quim_formula1 extends AppCompatActivity {
 
         txQuim_Formula1 = (TextView) findViewById(R.id.txQuim_Formula1);
         Bundle parametros = getIntent().getExtras();
-        if (parametros != null) {
-            txQuim_Formula1.setText(parametros.getString("Pss1"));
-        }
+
     }
 }

@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
     Button favoritoB;
     ListView listView;
 
-    String []valores = new String[] {"ALGEBRA","CALCULO","ESTADISTICA","FISICA","QUIMICA","TRIGONOMETRIA"};
+    String []valores = new String[] {"ALGEBRA","CALCULO","FISICA","QUIMICA"};
 
 
 
@@ -45,10 +45,9 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         String algebraV ="ALGEBRA";
         String calculoV ="CALCULO";
-        String estadisticaV ="ESTADISTICA";
         String fisicaV = "FISICA";
         String quimicaV = "QUIMICA";
-        String trigonometriaV = "TRIGONOMETRIA";
+
 
         String valor = (String) adapterView.getItemAtPosition(i);
 
@@ -66,11 +65,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         }
 
 
-        if(valor ==  estadisticaV){
-            Intent nuevoForm = new Intent(MainActivity.this,estadistica.class);
-            nuevoForm.putExtra("PsEstadistica",valor);
-            startActivity(nuevoForm);
-        }
+
 
         if(valor ==  fisicaV){
             Intent nuevoForm = new Intent(MainActivity.this,fisica.class);
@@ -82,11 +77,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
             nuevoForm.putExtra("PsQuimica",valor);
             startActivity(nuevoForm);
         }
-        if(valor ==  trigonometriaV){
-            Intent nuevoForm = new Intent(MainActivity.this,trigonometria.class);
-            nuevoForm.putExtra("PsTrigonometria",valor);
-            startActivity(nuevoForm);
-        }
+
 
 
 

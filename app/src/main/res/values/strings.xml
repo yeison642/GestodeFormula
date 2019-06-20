@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gesto de Formulas</string>
+    <string name="app_name">Gestor de Formulas</string>
     <string name="TextView">Selecciona una Categoria</string>
     <string name="TextCalculo">subcategoria1</string>
 
@@ -25,7 +25,7 @@
     <string name="formula_1">FORMULA 1</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="url">URL</string>
-    <string name="a_adir_a_favotitas">Añadir a Favotitas</string>
+    <string name="a_adir_a_favotitas">Añadir a Favoritas</string>
     <string name="formula_trriengulo">formula trriengulo</string>
     <string name="triengle">triengle</string>
     <string name="triangle">triangle</string>
