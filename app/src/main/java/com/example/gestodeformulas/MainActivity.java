@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
     Button favoritoB;
     ListView listView;
 
-    String []valores = new String[] {"ALGEBRA","CALCULO DIFERENCIAL","FISICA","QUIMICA "};
+    String []valores = new String[] {"ALGEBRA","CALCULO","FISICA","QUIMICA "};
 
 
 
