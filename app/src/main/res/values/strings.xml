@@ -22,5 +22,12 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="title_activity_materia__algebra">materia_Algebra</string>
+    <string name="formula_1">FORMULA 1</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="url">URL</string>
+    <string name="a_adir_a_favotitas">Añadir a Favotitas</string>
+    <string name="formula_trriengulo">formula trriengulo</string>
+    <string name="triengle">triengle</string>
+    <string name="triangle">triangle</string>
 
 </resources>
