@@ -35,11 +35,11 @@ public class fisica extends AppCompatActivity  implements ListView.OnItemClickLi
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        String form1 ="FORMULA1";
-        String form2 ="FORMULA2";
-        String form3 ="FORMULA3";
-        String form4 = "FORMULA4";
-        String form5 = "FORMULA5";
+        String form1 ="LEY DE OHM";
+        String form2 ="MAGENTISMO";
+        String form3 ="MOV PARABOLICO";
+        String form4 = "FUERZA ELECTRICA";
+        String form5 = "LEY DE VOLTAJES";
 
         String valor = (String) adapterView.getItemAtPosition(i);
 
