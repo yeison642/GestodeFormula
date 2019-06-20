@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".url"></activity>
+        <activity android:name=".qr"></activity>
+        <activity android:name=".url" />
         <activity android:name=".algebra" />
-        <activity android:name=".calculo"/>
+        <activity android:name=".calculo" />
         <activity android:name=".fisica" />
         <activity android:name=".quimica" />
         <activity android:name=".favoritos" />

@@ -29,5 +29,8 @@
     <string name="formula_trriengulo">formula trriengulo</string>
     <string name="triengle">triengle</string>
     <string name="triangle">triangle</string>
+    <string name="qr">QR</string>
+    <string name="scan">SCAN QR</string>
+
 
 </resources>

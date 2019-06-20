@@ -16,7 +16,7 @@ public class algebra extends AppCompatActivity implements ListView.OnItemClickLi
 
     private TextView txAlgebra;
     ListView listView;
-    String []temas = new String[] {"MATRICES","VECTOR","POLINOMIOS","FACTORIZACION","VALOR ABSOLUTO"};
+    String []temas = new String[] {"MATRICES","VECTORES","POLINOMIOS","FACTORIZACION","VALOR ABSOLUTO"};
 
 
 
@@ -41,7 +41,7 @@ public class algebra extends AppCompatActivity implements ListView.OnItemClickLi
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         String form1 ="MATRICES";
-        String form2 ="VECTOR";
+        String form2 ="VECTORES";
         String form3 ="POLINOMIOS";
         String form4 = "FACTORIZACION";
         String form5 = "VALOR ABSOLUTO";
