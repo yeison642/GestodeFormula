@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
 
     String []valores = new String[] {"ALGEBRA","CALCULO","FISICA","QUIMICA"};
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
