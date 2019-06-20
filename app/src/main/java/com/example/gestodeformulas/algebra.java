@@ -16,7 +16,7 @@ public class algebra extends AppCompatActivity implements ListView.OnItemClickLi
 
     private TextView txAlgebra;
     ListView listView;
-    String []temas = new String[] {"FORMULA1","FORMULA2","FORMULA3","FORMULA4","FORMULA5"};
+    String []temas = new String[] {"MATRICES","VECTORES","POLINOMIOS","FACTORIZACION","VALOR ABSOLUTO"};
 
 
 
