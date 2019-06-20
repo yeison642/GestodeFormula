@@ -42,4 +42,18 @@
         app:layout_constraintEnd_toEndOf="@+id/txEncabezado"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btnQR"
+        android:layout_width="58dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/colorSeleccioneCate"
+        android:onClick="Scanqr"
+        android:text="@string/qr"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/txEncabezado"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="9dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
