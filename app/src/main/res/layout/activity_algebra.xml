@@ -12,10 +12,9 @@
         android:id="@+id/txAlgebra"
         android:layout_width="413dp"
         android:layout_height="44dp"
-        android:background="@color/colorTexSeleccionCate"
+        android:background="@color/coloPanelFormula"
+        android:textColor="@color/colorTexSeleccionCate"
         android:gravity="center"
-
-        android:textColor="#FFFFFF"
         android:textSize="18sp"
         tools:ignore="MissingConstraints" />
 

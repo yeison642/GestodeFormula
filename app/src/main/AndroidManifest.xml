@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".qr"></activity>
+        <activity android:name=".url" />
         <activity android:name=".algebra" />
         <activity android:name=".calculo" />
         <activity android:name=".fisica" />
@@ -34,7 +36,6 @@
         <activity android:name=".quim_formula3" />
         <activity android:name=".quim_formula4" />
         <activity android:name=".quim_formula5" />
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

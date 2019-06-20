@@ -13,10 +13,10 @@
         android:id="@+id/txCalculo"
         android:layout_width="413dp"
         android:layout_height="44dp"
-        android:background="#000044"
+        android:background="@color/coloPanelFormula"
         android:gravity="center"
 
-        android:textColor="#FFFFFF"
+        android:textColor="@color/colorTexSeleccionCate"
         android:textSize="18sp"
         tools:ignore="MissingConstraints" />
 

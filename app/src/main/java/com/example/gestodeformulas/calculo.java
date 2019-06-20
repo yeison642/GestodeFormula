@@ -14,7 +14,9 @@ public class calculo extends AppCompatActivity implements ListView.OnItemClickLi
 
     private TextView txCalculo;
     ListView listView;
+
     String []temas = new String[] {"INTEGRALES","LIMITES","RACIONALIZACION","DESIGUALDADES","DERIVADAS"};
+
 
 
 
