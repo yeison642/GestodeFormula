@@ -1,5 +1,6 @@
 package com.example.gestodeformulas;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -33,5 +34,10 @@ public class quim_formula2  extends AppCompatActivity {
         if (parametros != null) {
             txQuim_Formula2.setText(parametros.getString("Pss2"));
         }
+    }
+    //Metodo del boton favorito
+    public void url(View view){
+        Intent nexURL= new Intent(this, url.class);
+        startActivity(nexURL);
     }
 }

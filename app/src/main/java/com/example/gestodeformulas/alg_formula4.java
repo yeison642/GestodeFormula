@@ -1,5 +1,6 @@
 package com.example.gestodeformulas;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,5 +33,10 @@ public class alg_formula4 extends AppCompatActivity {
         if(parametros != null){
             txAlg_Formula4.setText(parametros.getString("Pss4"));
         }
+    }
+    //Metodo del boton favorito
+    public void url(View view){
+        Intent nexURL= new Intent(this, url.class);
+        startActivity(nexURL);
     }
 }

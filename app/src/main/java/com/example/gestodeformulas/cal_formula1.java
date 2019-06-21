@@ -1,5 +1,6 @@
 package com.example.gestodeformulas;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -33,6 +34,11 @@ public class cal_formula1 extends AppCompatActivity {
         if(parametros != null){
             txCal_Formula1.setText(parametros.getString("Pss1"));
         }
+    }
+    //Metodo del boton favorito
+    public void url(View view){
+        Intent nexURL= new Intent(this, url.class);
+        startActivity(nexURL);
     }
 
 
