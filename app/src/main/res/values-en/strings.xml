@@ -1,13 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Gestor de Formulas</string>
-    <string name="TextView">Selecciona una Categoria</string>
-    <string name="TextCalculo">subCategory</string>
+    <string name="app_name">Formula manager</string>
+    <string name="TextView">Select a category</string>
+    <string name="TextCalculo">subcategory</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="encabezado_main">   Seleccione Categoria</string>
-    <string name="encabezado_algebra">Seleccione Tema</string>
-    <string name="title_activity_sub_temas">subTemas</string>
+    <string name="encabezado_main">Select a category</string>
+    <string name="encabezado_algebra">Select Theme</string>
+    <string name="title_activity_sub_temas">subTheme</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -21,16 +22,12 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
-    <string name="title_activity_materia__algebra">materia_Algebra</string>
+    <string name="title_activity_materia__algebra">Matter_Algebra</string>
     <string name="formula_1">FORMULA 1</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="url">URL</string>
-    <string name="a_adir_a_favotitas">Añadir a Favoritas</string>
+    <string name="a_adir_a_favotitas">Add to Favorites</string>
     <string name="formula_trriengulo">formula trriengulo</string>
     <string name="triengle">triengle</string>
     <string name="triangle">triangle</string>
-    <string name="qr">QR</string>
-    <string name="scan">SCAN QR</string>
-
-
 </resources>
