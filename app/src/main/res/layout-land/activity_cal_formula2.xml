@@ -34,6 +34,7 @@
         android:background="@drawable/urln"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
+        android:onClick="url"
         app:layout_constraintEnd_toEndOf="@+id/txCal_Formula2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="0dp" />
@@ -50,6 +51,7 @@
 
         android:layout_marginRight="8dp"
         android:background="@android:drawable/btn_star_big_on"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="parent"

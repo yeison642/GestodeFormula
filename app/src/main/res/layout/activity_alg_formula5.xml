@@ -27,7 +27,7 @@
         android:layout_marginRight="16dp"
         android:background="@drawable/urln"
         android:textColor="@color/colorTexSeleccionCate"
-
+        android:onClick="url"
 
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/txAlg_Formula5"
@@ -46,6 +46,7 @@
 
         android:layout_marginRight="8dp"
         android:background="@android:drawable/btn_star_big_on"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txAlg_Formula5"

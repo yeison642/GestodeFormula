@@ -46,13 +46,14 @@
 
     <Button
         android:id="@+id/btFavoritos"
-        android:layout_width="44dp"
-        android:layout_height="42dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
+        android:layout_width="39dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:background="@android:drawable/btn_star"
         android:onClick="Favorito"
         app:layout_constraintEnd_toEndOf="@+id/txEncabezado"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

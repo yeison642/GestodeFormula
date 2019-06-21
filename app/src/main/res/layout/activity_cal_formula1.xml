@@ -27,8 +27,9 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:background="@drawable/urln"
-        android:textColor="@color/colorTexSeleccionCate"
+        android:onClick="url"
 
+        android:textColor="@color/colorTexSeleccionCate"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/txCal_Formula1"
         tools:ignore="MissingConstraints"

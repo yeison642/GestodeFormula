@@ -31,6 +31,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/txCal_Formula4"
         tools:ignore="MissingConstraints"
+        android:onClick="url"
         tools:layout_editor_absoluteY="0dp" />
 
 
@@ -45,6 +46,7 @@
 
         android:layout_marginRight="8dp"
         android:background="@android:drawable/btn_star_big_on"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txCal_Formula4"

@@ -27,6 +27,7 @@
         android:background="@drawable/urln"
         android:textColor="@color/colorTexSeleccionCate"
         android:textSize="24sp"
+        android:onClick="url"
         app:layout_constraintEnd_toEndOf="@+id/txQuim_Formula3"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="0dp" />
